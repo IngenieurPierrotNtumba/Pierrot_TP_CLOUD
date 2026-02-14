@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI, sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+header{
+    background:rgba(0,0,0,0.6);
+    padding:15px 40px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.content{
+    padding:60px;
+    text-align:center;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    margin:auto;
+}
+input, textarea{
+    margin:10px 0;
+    padding:12px;
+    border-radius:10px;
+    border:none;
+}
+button{
+    padding:12px;
+    border-radius:20px;
+    border:none;
+    background:#00ffff;
+    font-weight:bold;
+    cursor:pointer;
+}
+button:hover{
+    background:white;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.5);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2>☁ CloudTech</h2>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="content">
+<h1>Contactez-nous</h1>
+
+<form>
+<input type="text" placeholder="votre nom" required>
+<input type="email" placeholder="Votre email" required>
+<textarea rows="5" placeholder="Votre message"></textarea>
+<button type="submit">Envoyer</button>
+</form>
+
+</section>
+
+<footer>
+© 2026 - TP Cloud Computing
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI, sans-serif;
+    background: linear-gradient(135deg,#42275a,#734b6d);
+    color:white;
+}
+header{
+    background:rgba(0,0,0,0.6);
+    padding:15px 40px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.content{
+    padding:60px;
+    text-align:center;
+}
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:20px;
+    margin:20px auto;
+    width:60%;
+    border-radius:15px;
+    transition:0.3s;
+}
+.card:hover{
+    transform:scale(1.05);
+    background:rgba(255,255,255,0.2);
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.5);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2>☁ CloudTech</h2>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="content">
+<h1>Nos Services Cloud</h1>
+
+<div class="card">
+<h3>IaaS</h3>
+<p>Infrastructure as a Service : Machines virtuelles, stockage et réseau.</p>
+</div>
+
+<div class="card">
+<h3>PaaS</h3>
+<p>Platform as a Service : Environnement de développement Cloud.</p>
+</div>
+
+<div class="card">
+<h3>SaaS</h3>
+<p>Software as a Service : Applications accessibles via Internet.</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 - TP Cloud Computing
+</footer>
+
+</body>
+</html>
